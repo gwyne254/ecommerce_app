@@ -39,7 +39,7 @@ class _VerifyScreeenState extends State<VerifyScreeen> {
                   padding: const EdgeInsets.all(32.0),
                   child: Text("Verify your phone number",
                       textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.title),
+                      style: Theme.of(context).textTheme.subtitle1),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
@@ -47,7 +47,7 @@ class _VerifyScreeenState extends State<VerifyScreeen> {
                   child: Text(
                       "We have sent you an SMS with a code to number +90$_txtNumberHint",
                       textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.subtitle),
+                      style: Theme.of(context).textTheme.bodyText1),
                 ),
                 Stack(
                   children: <Widget>[
@@ -59,7 +59,7 @@ class _VerifyScreeenState extends State<VerifyScreeen> {
                         keyboardType: TextInputType.text,
                         decoration: InputDecoration(
                           fillColor: Theme.of(context).dividerColor,
-                          hintStyle: Theme.of(context).textTheme.subtitle,
+                          hintStyle: Theme.of(context).textTheme.bodyText1,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide(
@@ -104,7 +104,7 @@ class _VerifyScreeenState extends State<VerifyScreeen> {
                             },
                           ),
                           hintText: "I  Number",
-                          hintStyle: Theme.of(context).textTheme.display2,
+                          hintStyle: Theme.of(context).textTheme.headline4,
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide(
@@ -126,7 +126,7 @@ class _VerifyScreeenState extends State<VerifyScreeen> {
                     children: <Widget>[
                       Text(
                         "Or login with   ",
-                        style: Theme.of(context).textTheme.subtitle,
+                        style: Theme.of(context).textTheme.bodyText1,
                       ),
                       GestureDetector(
                         onTap: () {
